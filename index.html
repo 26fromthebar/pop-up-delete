@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <title>Pop-up</title>
+  </head>
+  <body>
+    <button class="open-pop-up-btn">Delete account</button>
+    <div class="overlay"></div>
+    <div class="pop-up">
+      <div class="pop-up-header">
+        <h2 class="pop-up-title">Delete account!</h2>
+      </div>
+      <div class="pop-up-body">
+        <p class="pop-up-text">
+          This action is irreversable. You are about to delete your account and
+          all relative data. Are you sure you want to perform this action?
+        </p>
+      </div>
+      <div class="pop-up-cta">
+        <button class="pop-up-cancel">Cancel</button>
+        <button class="pop-up-delete">Delete</button>
+      </div>
+    </div>
+    <div class="confirmation">
+      <p>Your account has been successfully deleted</p>
+      <button class="confirmation-ok">OK</button>
+    </div>
+  </body>
+</html>
